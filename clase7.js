@@ -21,7 +21,6 @@ imprimirNombreEnMayusculas(dario)
 // imprimirNombreEnMayusculas({ nombre: 'Pepito' })
 // imprimirNombreEnMayusculas({ apellido: 'Gomez' })
 
-function imprimirNombreYEdad() {
-  // Hola, me llamo Sacha y tengo 28 años
-  // Hola, me llamo Darío y tengo 27 años
+function imprimirNombreYEdad({ obj2: { nombre, edad } }){
+	console.log(`Hola me llamo ${nombre} y tengo ${edad} años`)
 }
